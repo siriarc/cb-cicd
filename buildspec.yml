@@ -1,6 +1,6 @@
 version: 0.2
 os: windows
-  phases:
+phases:
     build:
       commands:
       - echo build started in `date`
@@ -13,6 +13,6 @@ os: windows
       - echo build completed on `date`
       - pwd
       - ls -al
-  artifacts:
+artifacts:
     files:
       '**/*'
