@@ -11,6 +11,6 @@
       - echo build completed on `date`
       - pwd
       - ls -al
-  artifacts:
-    files:
-      '**/*'
+    artifacts:
+      files:
+        '**/*'
