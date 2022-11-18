@@ -8,7 +8,7 @@ phases:
       - echo this is my code
       - pip install pandas
       - echo pandas library is installed
-    post build:
+    post_build:
       commands:
       - echo build completed on `date`
       - pwd
