@@ -1,3 +1,5 @@
+version: 0.2
+os: windows
   phases:
     build:
       commands:
@@ -11,6 +13,6 @@
       - echo build completed on `date`
       - pwd
       - ls -al
-    artifacts:
-      files:
-        '**/*'
+  artifacts:
+    files:
+      '**/*'
