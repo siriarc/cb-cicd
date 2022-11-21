@@ -6,7 +6,7 @@ phases:
       - echo build started in `date`
       - cd lib
       - pwd
-      - zip -r ../ deployment_package.zip
+      - zip -r deployment_package.zip ../
       - cd ..
       - zip -g deployment_package test.py
       - echo compiling the python code
