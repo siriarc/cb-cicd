@@ -4,6 +4,10 @@ phases:
     build:
       commands:
       - echo build started in `date`
+      - cd lib
+      - zip -r9 ../deployment_package.zip
+      - cd ..
+      - zip -g deployment_package lambda_function.py
       - echo compiling the python code
       - echo this is my code
       - pip install pandas
