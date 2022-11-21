@@ -13,7 +13,7 @@ phases:
       - ls
       - cd lib
       - ls
-      - zip -g deployment_package test.py
+      - zip -g deployment_package.zip test.py
       - echo compiling the python code
       - echo this is my code
       - pip install pandas
