@@ -10,6 +10,7 @@ phases:
       - pwd
       - cd ..
       - pwd
+      - ls
       - zip -g deployment_package test.py
       - echo compiling the python code
       - echo this is my code
