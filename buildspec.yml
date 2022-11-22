@@ -14,7 +14,6 @@ phases:
       - cd lib
       - ls
       - zip -sf deployment_package.zip
-      - zip -g deployment_package.zip /test.py
       - ls
       - echo compiling the python code
       - echo this is my code
