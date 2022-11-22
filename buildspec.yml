@@ -13,7 +13,7 @@ phases:
       - ls
       - cd lib
       - ls
-      - unzip deployment_package.zip 
+      - zip -sf deployment_package.zip 
       - ls
       - echo compiling the python code
       - echo this is my code
