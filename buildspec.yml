@@ -22,7 +22,6 @@ phases:
     post_build:
       commands:
       - echo build completed on `date`
-      - aws lambda update-fuction-code --function-name test-lambda --zip-file fileb://deployment_package.zip
       - pwd
       - ls 
 artifacts:
