@@ -14,6 +14,7 @@ phases:
       - cd lib
       - ls
       - unzip deployment_package.zip test.py
+      - ls
       - echo compiling the python code
       - echo this is my code
       - pip install pandas
